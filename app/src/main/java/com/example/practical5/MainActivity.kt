@@ -97,7 +97,7 @@ fun CitySwitchPage() {
                 .fillMaxWidth()
                 .padding(bottom = 16.dp)
         )
-        Text(text = "Current city：${nameList[selectedIndex]}")
+        Text(text = "current city：${nameList[selectedIndex]}")
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
